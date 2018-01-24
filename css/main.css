@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+#css-zen-garden{
+    width: 100%;
+    margin: 0;
+}
+
+.page-wrapper{
+    width:70vw;
+    margin:0 auto 0 auto;
+    font-family:'Slabo 27px', serif;
+}
+
+.intro{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20vw 7vw 15vw;
+}
+
+header{
+    background-image: url(/img/bg.jpg);
+    grid-row: 1;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size:0.9vw;
+    text-transform: uppercase;
+    word-spacing: 0.3vw;
+}
+
+header h1{
+    margin:0;
+    padding: 4vw 0 2vw 0;
+    font-size: 2.5vw;
+}
+
+abbr{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.summary{
+    grid-row: 2;
+    background-color: rgba(32,27,27,0.9);
+    color:rgb(255,255,255);
+    text-align: center;
+    word-spacing: 0.2vw;
+}
+
+.summary>p>a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: rgb(255,255,255);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.preamble{
+    grid-row: 3;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.preamble>:first-child{
+    width:100%;
+    text-align: center;
+}
+
+.preamble>p{
+    width:30%;
+}
+
+#zen-supporting{
+    display:flex;
+    flex-direction: column;
+    background:url(/img/block.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.main>div>p>a{
+    font-size: 1.3vw;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-style: italic;
+    word-spacing: 0.4vw;
+}
+
+.explanation{
+    width:25vw;
+    align-items:flex-start;
+    background-color: rgb(90,11,11);
+    margin:2vw 0 0 2vw;
+    color: rgb(255,255,255);
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.participation{
+    align-self:flex-end;
+    background-color: rgb(122,14,14);
+    color:rgb(255,255,255);
+    padding:2vw;
+    width:30vw;
+    box-sizing: border-box;
+    margin:-20vw 2vw 0 0;
+}
+
+.benefits{
+    align-self:flex-start;
+    background-color: rgb(122,14,14);
+    color:rgb(255,255,255);
+    padding:2vw;
+    width:25vw;
+    box-sizing: border-box;
+    margin:-11vw 0 0 2vw;
+}
+
+.requirements{
+    align-self:center;
+    background-color: rgb(90,11,11);
+    color:rgb(255,255,255);
+    padding:2vw;
+    width:60vw;
+    box-sizing: border-box;
+    margin: 2vw 0 2vw 0;
+}
+
+footer{
+    width: 70vw;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(32,27,27,0.5);
+    text-align: center;
+    font-size: 2vw;
+}
+
+footer>a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+.sidebar{
+    margin: 0;
+    height: 50vw;
+    z-index: -2;
+    position: relative;
+    background: url(/img/wrapper-bg.jpg) no-repeat center fixed;
+    padding: 2vw 0 2vw 3vw;
+    box-sizing: border-box;
+}
+    
+.wrapper>div>h3{
+    font-size: 2vw;
+    color:rgb(122,14,14);
+}
+
+li>a{
+    line-height: 1.7vw;
+    font-size: 1.3vw;
+    color: rgb(0, 0 , 0);
+    text-decoration: none;
+}
